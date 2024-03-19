@@ -1,5 +1,20 @@
 
 
+// WRITE A C PROGRAM TO PRINTF FOLLOWING OUTPUT
+// Input a character:'A'
+// Ascii value is 65.then find details of 65
+// a. even of odd
+// b. positive or negative
+// c.find it's factors
+// d. find factorial
+// e. prime or not
+// f. pallindrome or not
+// g. fibnocii series upto the number
+// h. check it is armstrong number or not
+// i. convert this decimal value to binary
+
+
+
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -8,7 +23,7 @@ int main()
     char a;
     printf("Enter any character: ");
     scanf("%c", &a);
-    printf("ASCII value of the given character is %d \n\n", a);
+    printf("ASCII value of the %c is %d \n\n", a, a);
 
     odd_Even(a);
 
